@@ -11,6 +11,10 @@ module.exports = function (app) {
       content: {
         h1: String,
         lead: String,
+        img: {
+          name: String,
+          alt: String,
+        },
         tableCont: [String],
         html: String,
         recom: [
